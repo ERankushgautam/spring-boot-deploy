@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("txt")
+@RequestMapping("/api")
 public class TextController {
 
-	@GetMapping("txt")
+	@GetMapping("/txt")
 	public ResponseEntity<?> text(){
 		return ResponseEntity.ok("hey.. i'm here after deploy");
 	}
