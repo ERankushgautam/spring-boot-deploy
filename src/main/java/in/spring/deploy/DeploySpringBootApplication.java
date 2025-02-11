@@ -8,6 +8,7 @@ public class DeploySpringBootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DeploySpringBootApplication.class, args);
+		System.out.println("started........");
 	}
 
 }
